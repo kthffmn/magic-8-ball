@@ -1,4 +1,23 @@
-<h1>Magic 8-Ball</h1>
-<p> Question: <%= @question %></p>
-<p>Answer: <%= @message %></p>
-<p>Ask another question <a href="/">here</a>.</p>
+<div class="container">
+
+  <div class="loveontop">
+    <h1>Magic 8-Ball</h1>
+    <p><%= @question %></p>
+    <p><a href="/">back</a></p>
+  </div>
+
+
+  <div class="outercontainer">
+    <div class="ball">
+      <div class="blue circle">
+        <div class="triangle">
+          <div class="square">
+            <p><%= @message %></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+

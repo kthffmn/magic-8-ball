@@ -1,54 +1,117 @@
 body {
-	color: black;
-	background-color: white;
-	font-size: 1.5em;
-	line-height: 1.4em;
-	background-image: url("./bricks.jpg")
+  color: white;
+  background-color: indigo;
 }
 
+.loveontop {
+  display: block;
+  text-align: center;
+}
+
+.buttonz {
+  position: absolute;
+  display: inline-block;
+  background-color: darkgrey;
+  color: white;
+  border-radius: 5px;
+  box-shadow: none;
+  border: none;
+  font-size: 1em;
+}
+
+.buttonz:hover{
+  background-color: black;
+}
+
+.shake {
+  left: 75px;
+  bottom: 40px;
+}
 
 h1 {
-	text-align: center;
-	font-family: Times, serif;
+  text-align: center;
+  margin-top: 25px;
+  color: black;
 }
 
-p {
-	margin-top: 5%;
-	margin-bottom: 5%;
-	font-family: Times, serif;}
+.outercontainer {
+  text-align: center;
+  height: 500px;
 }
 
-img {
-	border: 3px solid white;
-    display: block;
-	margin: 0 auto;
+.ball {
+  display: inline-block;
+  background: black;
+  position: relative;
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  -moz-border-radius: 250px;
+  -webkit-border-radius: 250px;
+  border-radius: 250px;
+  background: -webkit-radial-gradient(167px 167px, circle, #484848, #000);
+  background: -moz-radial-gradient(167px 167px, circle, #484848, #000);
+  background: radial-gradient(167px 167px, circle, #484848, #000);
 }
 
-.content {
-	width: 75%;
-	margin: 0 auto;
-	text-align: center;
-	margin-top: 100px;
+.circle {
+  background-color: white;
+  color: black;
+  position: absolute;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  -moz-border-radius:100px;
+  -webkit-border-radius:100px;
+  border-radius:100px;
+  top: 145px;
+  left: 145px;
 }
 
-.footer a {     
-	/*display: inline;*/
-	margin: 0 auto;
-    padding: 7px;
-    margin-left: 13%;
-    font-family: Times, serif;
-    color: #cccccc;
-}
-.footer {
-	margin-left: 16%;
+.blue {
+  background-color: #000033;
+  color: #000033;
 }
 
-a:link {
-	color:#D80000 ;
-    font-family: Times, serif;
+.prompt {
+  margin-top: 50px;
 }
+
+#question {
+  margin-top: 10px;
+  width: 170px;
+}
+
+.triangle {
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+  color: white;
+  width: 0;
+  height: 0;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-bottom: 140px solid #171E88;
+}
+
+.square {
+  position: absolute;
+  left: -35px;
+  top: 70px;
+  width: 66px;
+  height: 66px;
+  background-color: #171E88;
+  padding: 2px;
+}
+
 a:visited {
-	color:#D80000;
-    font-family: Times, serif;
-} /* visited link */ 
-a:hover {text-decoration:underline;}
+  text-decoration:none;
+  color: white;
+}
+
+a:hover {
+  text-decoration:none;
+  color: white;
+}
+
+a:active {text-decoration:none;}
