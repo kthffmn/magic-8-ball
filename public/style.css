@@ -1,16 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps:400,700);
+
 body {
   color: white;
-  background-color: indigo;
+  background-color: white ;
 }
 
-.loveontop {
-  display: block;
-  text-align: center;
+p {
+  margin: 0;
 }
 
 .buttonz {
-  position: absolute;
-  display: inline-block;
   background-color: darkgrey;
   color: white;
   border-radius: 5px;
@@ -19,24 +18,53 @@ body {
   font-size: 1em;
 }
 
+.askz {
+  margin-top: 20px;
+}
+
+.askanother {
+  background-color: #282828;
+  padding: 10px;
+}
+
 .buttonz:hover{
   background-color: black;
 }
 
 .shake {
+  position: absolute;
+  display: inline-block;
   left: 75px;
   bottom: 40px;
 }
 
 h1 {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  display: block;
+  color: #0023ad;
+  background-color: white;
   text-align: center;
-  margin-top: 25px;
-  color: black;
 }
 
 .outercontainer {
   text-align: center;
-  height: 500px;
+  height: 1000px;
+  width: 100%;
+  background-color: purple;
+  padding-top: 20px;
+}
+
+.gradient {
+  height: 5px;
+  background: -webkit-linear-gradient(white, purple); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white, purple); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white, purple); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white, purple); /* Standard syntax */
+}
+
+.question {
+  margin-bottom: 20px;
+  font-size: 1.5em;
 }
 
 .ball {
@@ -68,9 +96,22 @@ h1 {
   left: 145px;
 }
 
-.blue {
-  background-color: #000033;
-  color: #000033;
+.white {
+  color: white;
+}
+
+.arrow {
+  position: absolute;
+  font-size: 3em;
+  top: 335px;
+}
+
+.backy {
+  left: 27%;
+}
+
+.forwardy {
+  right: 27%;
 }
 
 .prompt {
@@ -102,6 +143,14 @@ h1 {
   height: 66px;
   background-color: #171E88;
   padding: 2px;
+}
+
+.blue {
+  background-color: #000033
+}
+
+.container {
+  background-color: purple;
 }
 
 a:visited {

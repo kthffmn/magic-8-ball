@@ -1,23 +1,19 @@
-<div class="container">
+<h1>Magic 8-Ball</h1>
 
-  <div class="loveontop">
-    <h1>Magic 8-Ball</h1>
-    <p><%= @question %></p>
-    <p><a href="/">back</a></p>
-  </div>
+<div class="gradient"></div>
 
-
-  <div class="outercontainer">
-    <div class="ball">
-      <div class="blue circle">
-        <div class="triangle">
-          <div class="square">
-            <p><%= @message %></p>
-          </div>
+<div class="outercontainer">
+  <div class="white question"><%= @question %></div>
+  <div class="ball">
+    <div class="blue circle">
+      <div class="triangle">
+        <div class="square">
+          <p><%= @message %></p>
         </div>
       </div>
     </div>
   </div>
-
+  <div class="askz">
+    <a href="/" class="askanother buttonz">Ask Again</a>
+  </div>
 </div>
-
