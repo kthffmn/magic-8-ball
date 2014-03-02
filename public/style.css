@@ -51,16 +51,16 @@ h1 {
   text-align: center;
   height: 1000px;
   width: 100%;
-  background-color: purple;
+  background-color: #33AAEE;
   padding-top: 20px;
 }
 
 .gradient {
   height: 5px;
-  background: -webkit-linear-gradient(white, purple); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(white, purple); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(white, purple); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(white, purple); /* Standard syntax */
+  background: -webkit-linear-gradient(white, #33AAEE); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white, #33AAEE); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white, #33AAEE); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white, #33AAEE); /* Standard syntax */
 }
 
 .question {
@@ -149,7 +149,7 @@ h1 {
 }
 
 .blue {
-  background-color: #000033
+  background-color: #000033;
 }
 
 .container {
